@@ -1,0 +1,20 @@
+## ignoremos los rar y los zip
+*.rar
+*.zip
+
+## Inoremos de momento las imagenes y videos
+*.bmp
+*.gif
+*.jpg
+*.tif
+*.png
+
+*.avi
+*.mp4
+*.mov
+*.mkv
+
+## Ignoramos carpetas no relacionadas
+Bases/output/
+Bases/.vscode
+.vscode/
