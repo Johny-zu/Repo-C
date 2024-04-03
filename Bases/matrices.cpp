@@ -1,17 +1,25 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
-int main()
-{
-    int edades[3][2] = {{1,2},{9,8},{14,21}}; //filas y columnas
-    int filas = (sizeof(edades)/sizeof(edades[0])); //darle limites a las filas
-    int columnas = (sizeof(edades[0])/sizeof(edades[0][0])); //darle limites a las columnas
-    for (int i = 0; i < filas; i++)//lleamos las filas
-    {
-        for (int j = 0; j < columnas; j++) //llenamos las columnas
-        {
-            cout << edades[i][j] << endl;
-        }
+int main() {
+    const int n = 5; // Número máximo de libros
+
+    // Declaración de un arreglo anidado para almacenar nombres de autores y títulos de libros
+    string libros[n][2] = {
+        {"Autor 1", "Título 1"},
+        {"Autor 2", "Título 2"},
+        {"Autor 3", "Título 3"},
+        {"Autor 4", "Título 4"},
+        {"Autor 5", "Título 5"}
+    };
+
+    // Mostrar los nombres de autores y títulos de libros almacenados en el arreglo
+    cout << "Lista de libros:" << endl;
+    for (int i = 0; i < n; ++i) {
+        cout << "Libro " << i+1 << ": " << libros[i][1] << " (Autor: " << libros[i][0] << ")" << endl;
     }
+
+    return 0;
 }
