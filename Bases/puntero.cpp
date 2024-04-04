@@ -9,16 +9,16 @@ int funcion(int valor, int incremento) {
 }
 
 int main() {
-    int numero = 10;
+    int valor = 10;
     int incremento; // Incremento dinámico
 
     cout << "Ingrese un valor para sumar: ";
     cin >> incremento;
 
-    cout << "Antes de funcion: " << numero << endl; // Imprime 10
+    cout << "Antes de funcion: " << valor << endl; // Imprime 10
 
     // Llamada a la función funcion, pasando el valor de numero y el incremento como argumentos
-    int resultado = funcion(numero, incremento);
+    int resultado = funcion(valor, incremento);
 
     cout << "Después de funcion: " << resultado << endl; // Imprime 15 (10 + incremento)
 
