@@ -1,7 +1,7 @@
 # Repositorio de c/c++
 Pondre lo que ya se por la escuela, y lo que aprendere de como usarlo de verdad
 
-### Repositorio 
+### Repositorio de c/c++
 Esperemos que este repo llegue algun dia de ser de utilidad par alguien ademas de mi, quiza viendo alguna funcion o algo, si lo vez y ocupas algo, adelante (^n^)/
 
 ### Fuentes de informacion principal
